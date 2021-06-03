@@ -1,0 +1,58 @@
+:root {
+   --main_editor_height: 50px;
+ }
+
+ div {
+   /* border: solid 1px rgb(212, 210, 210); */
+   font-family: "Consolas"
+}
+
+.borderbox {
+   border: solid 1px rgb(212, 210, 210);
+}
+
+.yscrolling {
+   overflow-x:hidden;
+   overflow-y:scroll;
+}
+
+.hidden {
+   display:none;
+}
+
+.ontop {
+   z-index:1000;
+}
+
+.white_backround {
+   background-color: white;
+}
+
+div.ck-editor__editable {
+   min-height: calc(var(--main_editor_height) - var(--ck-form-header-height));
+   max-height: calc(var(--main_editor_height) - var(--ck-form-header-height));
+}
+
+.btn_disabled {
+   opacity: 0.4;
+}
+
+
+
+#ACEeditor {
+   border: solid 2px rgb(212, 210, 210);
+   width: 100%;
+   height: 100%;
+}
+
+#inp_fnam {
+   width: 100%;
+   height: 70%;
+   border: solid 2px rgb(212, 210, 210);
+}
+
+#main_console {
+   border: solid 2px rgb(212, 210, 210);
+   overflow-x:hidden;
+   overflow-y:scroll;
+}
